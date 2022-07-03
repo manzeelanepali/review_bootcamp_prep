@@ -16,13 +16,13 @@ function myMnemonic(str1, str2, str3, str4) {
     str = str1[0];
   }
   if (str2) {
-    str = str + str2[0];
+    str += str2[0];
   }
   if (str3) {
-    str = str + str3[0];
+    str += str3[0];
   }
   if (str4) {
-    str = str + str4[0];
+    str += str4[0];
   }
   return str;
 }
